@@ -73,6 +73,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="FBO.cpp" />
+    <ClCompile Include="GBuffer.cpp" />
     <ClCompile Include="ObjectHandler.cpp" />
     <ClCompile Include="SkyBoxRenderer.cpp" />
     <ClCompile Include="VisualDisplay.cpp" />
@@ -89,6 +90,7 @@
     <ClInclude Include="Clock.h" />
     <ClInclude Include="Collision.h" />
     <ClInclude Include="FBO.h" />
+    <ClInclude Include="GBuffer.h" />
     <ClInclude Include="ObjectHandler.h" />
     <ClInclude Include="SkyBoxRenderer.h" />
     <ClInclude Include="Viewport.h" />
