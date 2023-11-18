@@ -6,7 +6,7 @@
 class GBuffer
 {
 private:
-	GLuint GBO; // Frame Buffer 
+	GLuint GBO; // Geometry Buffer 
 	GLuint RBO; // Render Buffer 
 	GLuint gPos; // Position
 	GLuint gNormal; // Normals

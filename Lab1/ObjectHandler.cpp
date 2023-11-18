@@ -14,6 +14,7 @@ void ObjectHandler::InitializeObjHandler(AudioHandler& _audio)
 	shaders[2].InitializeGeomShader("..\\res\\shaders\\basicgeomshader");
 	shaders[3].InitializeShader("..\\res\\shaders\\voronoiNoise");
 	shaders[4].InitializeShader("..\\res\\shaders\\mandleBrotShader");
+	shaders[5].InitializeShader("..\\res\\shaders\\gBuffer");
 	textures[0].InitializeTexture("..\\res\\textures\\hair.jpg");
 	textures[1].InitializeTexture("..\\res\\textures\\bricks.jpg");
 	textures[2].InitializeTexture("..\\res\\textures\\backpack.jpg");
@@ -153,6 +154,12 @@ void ObjectHandler::BindObjectShader(int shaderIndex, Model& _object, Viewport& 
 		_object.modelShader.setMat4("view", mv);
 		_object.modelShader.setMat4("projection", mp);
 		_object.modelShader.setFloat("time", time);
+		break;
+
+	case 5:
+		_object.modelShader.setMat4("model", model);
+		_object.modelShader.setMat4("view", mv);
+		_object.modelShader.setMat4("projection", mp);
 		break;
 	}
 }

@@ -129,6 +129,8 @@
     <None Include="..\res\shaders\emappingshader.vert" />
     <None Include="..\res\shaders\FBOShader.frag" />
     <None Include="..\res\shaders\FBOShader.vert" />
+    <None Include="..\res\shaders\gBuffer.frag" />
+    <None Include="..\res\shaders\gBuffer.vert" />
     <None Include="..\res\shaders\lightcubeshader.frag" />
     <None Include="..\res\shaders\lightcubeshader.vert" />
     <None Include="..\res\shaders\mandleBrotShader.frag" />
